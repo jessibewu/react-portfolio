@@ -4,7 +4,7 @@ import Navigation from '../../components/Navigation';
 import About from '../../components/About';
 import Contact from '../../components/Contact';
 // import Portfolio from '../../components/Portfolio';
-// import Resume from '../../components/Resume';
+import Resume from '../../components/Resume';
 
 class Header extends Component {   
     render() {
@@ -21,7 +21,7 @@ class Header extends Component {
           {/* <Route path="/portfolio" component={Portfolio}/> */}
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact}/>
-          {/* <Route path="/resume" component={Resume}/> */}
+          <Route path="/resume" component={Resume}/>
         </div>
     </HashRouter>
     )

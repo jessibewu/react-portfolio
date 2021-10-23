@@ -8,7 +8,7 @@ function Navigation(props) {
         <NavLink to="/about">about </NavLink>
         {/* <NavLink to="/portfolio">portfolio </NavLink> */}
         <NavLink to="/contact">contact </NavLink>
-        {/* <NavLink to="/resume">resume</NavLink> */}
+        <NavLink to="/resume">resume</NavLink>
     </div>
   );
 }
