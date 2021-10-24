@@ -15,7 +15,6 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
 }
 
 * {
@@ -42,10 +41,7 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h5 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   margin: 5px 0;
@@ -60,20 +56,8 @@ h2 {
   font-size: 2rem;
 }
 
-h3 {
-  font-size: 1.75rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-}
-
 h5 {
   font-size: 1.25rem;
-}
-
-h6 {
-  font-size: 1rem;
 }
 
 p {
@@ -90,10 +74,6 @@ a {
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
-}
-
-li {
-  list-style: none;
 }
 
 .container {
@@ -116,21 +96,6 @@ li {
   justify-content: flex-end;
 }
 
-.mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
-}
-
-.mx-2 {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
-}
-
-.my-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
-}
-
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
@@ -139,26 +104,6 @@ li {
 .my-5 {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
-}
-
-.px-1 {
-  padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);
-}
-
-.px-2 {
-  padding-right: var(--spacing-two);
-  padding-left: var(--spacing-two);
-}
-
-.py-1 {
-  padding-top: var(--spacing-one);
-  padding-bottom: var(--spacing-one);
-}
-
-.py-2 {
-  padding-top: var(--spacing-two);
-  padding-bottom: var(--spacing-two);
 }
 
 /* Header: */
@@ -180,10 +125,6 @@ span[role="img"] {
   cursor: default;
 }
 
-#header h2:hover {
-  text-decoration: underline;
-}
-
 #header h2:hover,
 #navigation a:hover,
 #resume .link:hover,
@@ -200,8 +141,9 @@ span[role="img"] {
 }
 
 #navigation a {
-  padding-left: 2em;
+  padding-left: 3em;
   font-weight: bold;
+  color: #7269ec;
 }
 
 /* About: */
@@ -210,17 +152,14 @@ span[role="img"] {
 }
 
 /* Contact: */
-#contact {
-  text-align: center;
+#contact-section {
+  justify-content: center;
   margin-top: 50px;
-  flex-direction: row;
 }
 
 #contact-form {
   padding-top: 20px;
-  align-items: center;
-  justify-content: center;
-}
+} 
 
 input {
   font-size: 1rem;
@@ -229,7 +168,8 @@ input {
   outline: none;
   border-radius: 5px;
   transition: box-shadow 0.2s;
-  width: 600px;
+  min-width: 400px;
+  margin: 7px auto;
 }
 
 input:focus {
@@ -238,11 +178,12 @@ input:focus {
 }
 
 textarea {
-	width: 600px;
+	width: 400px;
 	height: 120px;
 	border: 3px solid #cccccc;
   border-radius: 1em;
 	padding: 5px;
+  margin: 7px auto;
 }
 
 button {
@@ -254,8 +195,9 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0px 1px;
+  margin: 1px 1px;
   background-color: var(--secondary);
+  width: 90px;
 }
 
 button:hover {

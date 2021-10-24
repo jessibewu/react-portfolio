@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
@@ -34,26 +33,28 @@ function ContactForm() {
   };
 
   return (
-    <section id="contact">
-      <h1 data-testid="h1tag">Contact:</h1><hr></hr>
-      <form id="contact-form" className='flex-row' onSubmit={handleSubmit}>
+    <section class="justify-content-center" id="contact-section">
+      <h1 data-testid="h1tag">Contact Me:</h1><hr></hr>
+      <form id="contact-form" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name">Name:</label><br></br>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label htmlFor="email">Email:</label><br></br>
           <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
+          <label htmlFor="message">Message:</label><br></br>
           <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
+        <div>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
+        </div>
         <div className='btn'>
         <button data-testid="button" type="submit">Submit</button>
         </div>
