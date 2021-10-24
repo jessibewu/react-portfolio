@@ -7,7 +7,7 @@ return(
     <h1 className="resume">My Resume:</h1>
         <hr></hr>
         <div class="row justify-content-center" id="resume">
-            <div class="mt-5 pl-5 pr-5">
+            <div class="resume-p">
                 <p>Full stack developer with experience of the MERN stack. Experienced in product management and software development. </p>
                 <p class="mt-5">
                 <a href="https://www.linkedin.com/in/jessica-ying-en-wu-830859b7/"><img src="https://img.icons8.com/ios-glyphs/50/ffffff/linkedin.png" alt="Jessica Wu LinkedIn"/></a>

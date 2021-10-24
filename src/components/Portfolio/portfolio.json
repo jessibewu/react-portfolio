@@ -2,7 +2,7 @@
     {
     "id": 1,
     "name": "tech blog",
-    "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/tech-blog.png",
+    "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/tech-blog.png",
     "github": "https://github.com/jessibewu/tech-blog",
     "deploy": "https://fierce-meadow-83766.herokuapp.com/",
     "topics": "MVC: bootstrap, handlebars-js, bcrypt, express.js, mysql2, sequelize, node.js, nodemon, dotenv, jest"
@@ -10,7 +10,7 @@
     {
     "id": 2,
     "name": "budget tracker",
-    "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/budget-tracker.png",
+    "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/budget-tracker.png",
     "github": "https://github.com/jessibewu/budget-tracker",
     "deploy": "https://lit-mesa-27218.herokuapp.com/",
     "topics": "PWA: Javascript, indexedDB, mongoDB, mongoose, compression, morgan, express.js"
@@ -18,7 +18,7 @@
     {
     "id": 3,
     "name": "weather dashboard",
-    "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/weather-dashboard.png",
+    "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/weather-dashboard.png",
     "github": "https://github.com/jessibewu/weather-dashboard",
     "deploy": "https://jessibewu.github.io/weather-dashboard/",
     "topics": "HTML, CSS, bootstrap, Javascript, Javascript, jQuery, moment, API"
@@ -26,7 +26,7 @@
     {
     "id": 4,
     "name": "work day scheduler",
-    "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/workday-scheduler.png",
+    "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/workday-scheduler.png",
     "github": "https://github.com/jessibewu/work-day-scheduler",
     "deploy": "https://jessibewu.github.io/work-day-scheduler/",
     "topics": "HTML, CSS, bootstrap, Javascript, jQuery, moment"
@@ -34,7 +34,7 @@
     {
     "id": 5,
     "name": "taskmaster",
-    "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/taskmaster.png",
+    "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/taskmaster.png",
     "github": "https://github.com/jessibewu/taskmaster-pro",
     "deploy": "https://jessibewu.github.io/taskmaster-pro/",
     "topics": "HTML, CSS, Javascript"
@@ -42,7 +42,7 @@
     {
     "id": 6,
     "name": "taskinator",
-    "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/taskinator.png",
+    "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/taskinator.png",
     "github": "https://github.com/jessibewu/taskinator",
     "deploy": "https://jessibewu.github.io/taskinator/",
     "topics": "HTML, CSS, Javascript"
