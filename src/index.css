@@ -6,7 +6,7 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #F3A847;
+  --secondary: #64973a;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
@@ -92,109 +92,8 @@ a {
 	margin-right: -2px;
 }
 
-.img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
-}
-
-button {
-	background: var(--primary);
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;	
-}
-
-.navActive {
-  color: var(--secondary);
-}
-/* Header: */
-#header {
-  background: var(--dark);
-  display: flex;
-  margin-left: 5px;
-}
-
-#r-icon:hover, 
-#navigation a:hover,
-#footer-icons a:hover,
-#footer a:hover{
-  filter: invert(100%);
-}
-
-/* Navigation: */
-#navigation {
-  font-weight: bold;
-  padding-top: 5px;
-}
-
-#navigation a {
-  padding-left: 1em;
-  font-weight: bold;
-}
-
-button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
-}
-
-button:hover {
-  opacity: .8;
-}
-
-button[disabled] {
-  cursor: default;
-  opacity: .8;
-}
-
-img {
-  max-width: 100%;
-}
-
-span[role="img"] {
-  cursor: default;
-}
-
-form {
-  width: 40%;
-}
-
-input {
-  font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid var(--dark);
-  outline: none;
-  border-radius: 3px;
-  transition: box-shadow 0.2s;
-}
-
-input:focus {
-  border: 1px solid var(--secondary);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
-}
-
 li {
   list-style: none;
-}
-
-textarea {
-	width: 600px;
-	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
 }
 
 .container {
@@ -262,7 +161,118 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-/* ProjectCard Styling: */
+/* Header: */
+#header {
+  background: var(--dark);
+  display: flex;
+  margin-left: 5px;
+}
+
+#header a{
+  display: inline-flex;
+}
+
+img {
+  max-width: 100%;
+}
+
+span[role="img"] {
+  cursor: default;
+}
+
+#header h2:hover {
+  text-decoration: underline;
+}
+
+#header h2:hover,
+#navigation a:hover,
+#resume .link:hover,
+#footer-icons a:hover,
+#footer a:hover {
+  filter: invert(100%);
+}
+
+/* Navigation: */
+#navigation {
+  font-weight: bold;
+  padding-top: 11px;
+  margin-left: 30px;
+}
+
+#navigation a {
+  padding-left: 2em;
+  font-weight: bold;
+}
+
+/* About: */
+#about, .project {
+  text-align: center;
+}
+
+/* Contact: */
+#contact {
+  text-align: center;
+  margin-top: 50px;
+  flex-direction: row;
+}
+
+#contact-form {
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 5px;
+  transition: box-shadow 0.2s;
+  width: 600px;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+  border-radius: 1em;
+	padding: 5px;
+}
+
+button {
+  color: var(--light);
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.4rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0px 1px;
+  background-color: var(--secondary);
+}
+
+button:hover {
+  opacity: .8;
+}
+
+button[disabled] {
+  cursor: default;
+  opacity: .8;
+}
+
+/* Project Styling: */
+.project h1,
+.resume {
+  margin-top: 50px;
+}
+
 .card {
   background-color: var(--platinum);
   border-radius: 5px;
@@ -273,7 +283,7 @@ textarea {
   box-shadow: 0 2px 2px var(--onyx), 0 6px 12px var(--onyx);
 }
 
-.card .img-container {
+.card, .img-container {
   height: 75%;
   overflow: hidden;
   text-align: center;
@@ -281,14 +291,14 @@ textarea {
   background-color: var(--platinum);
 }
 
-.card .img-container img {
+.card, .img-container img {
   width: 100%;
   padding: 25px;
   margin-bottom: 20px;
   background-color: var(--platinum);
 }
 
-.card .content {
+.card, .content {
   font-size: 18px;
   background-color: var(--platinum);
   color: var(--orange-soda);
@@ -297,8 +307,12 @@ textarea {
 }
 
 #project-icon {
-  background-color: var(--platinum);
   padding: 5px;
+}
+
+#project-icon:hover,
+#resume a:hover {
+  filter: invert(20%);
 }
 
 #topics {
@@ -324,12 +338,20 @@ textarea {
   align-content: flex-start;
 }
 
-/* Footer: */
+/* Resume: */
+#skills {
+  margin-top: 40px;
+}
 
+#skills img {
+  padding: 20px;
+}
+
+/* Footer: */
 #footer {
   color: var(--primary);
   text-align: center;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 #footer-icons a {

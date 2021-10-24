@@ -5,12 +5,12 @@ function Navigation(props) {
 
     return (
     <div className="row navigation" id="navigation">
-      <h4>
+      <h5>
         <NavLink to="/about">About Me </NavLink>
         <NavLink to="/portfolio">Portfolio </NavLink>
-        <NavLink to="/contact">Contact </NavLink>
         <NavLink to="/resume">Resume</NavLink>
-      </h4>
+        <NavLink to="/contact">Contact </NavLink>
+      </h5>
     </div>
   );
 }

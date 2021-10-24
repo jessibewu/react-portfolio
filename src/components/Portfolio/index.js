@@ -11,7 +11,7 @@ function Portfolio () {
     return (
         <section>
           <div className="project">
-            <h1 className="title">react portfolio: Jessica Wu</h1>
+            <h1 className="title">My Portfolio:</h1>
             <hr></hr>
           </div>
 

@@ -34,9 +34,9 @@ function ContactForm() {
   };
 
   return (
-    <section>
-      <h1 data-testid="h1tag">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+    <section id="contact">
+      <h1 data-testid="h1tag">Contact:</h1><hr></hr>
+      <form id="contact-form" className='flex-row' onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -54,7 +54,9 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
+        <div className='btn'>
         <button data-testid="button" type="submit">Submit</button>
+        </div>
       </form>
     </section>
   );
