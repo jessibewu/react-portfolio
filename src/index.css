@@ -1,8 +1,8 @@
-
+/* Main/Body Styling: */
 main {
 	margin: 0 auto;
 	max-width: 90%;
-  padding: 50px 30px;
+  padding: 5px 10px;
 }
 :root {
   --primary: #8c54ff;
@@ -82,21 +82,61 @@ p {
 }
 
 a {
-  color: var(--tertiary);
+	color: var(--primary);
   text-decoration: none;
   font-weight: bold;
+  border-radius: 5px;
+	font-weight: 600;
+	padding: 2px 4px;
+	margin-left: -2px;
+	margin-right: -2px;
 }
 
-a:hover {
-  color: rgb(221, 103, 215);
+.img-thumbnail {
+  width: auto;
+  height: 300px;
+  margin-bottom: 50px;
+  cursor: pointer;
 }
 
-header {
+button {
+	background: var(--primary);
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
+}
+
+.navActive {
+  color: var(--secondary);
+}
+/* Header: */
+#header {
   background: var(--dark);
+  display: flex;
+  margin-left: 5px;
 }
 
-header a {
-  color: var(--light);
+#r-icon:hover, 
+#navigation a:hover,
+#footer-icons a:hover,
+#footer a:hover{
+  filter: invert(100%);
+}
+
+/* Navigation: */
+#navigation {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+#navigation a {
+  padding-left: 1em;
+  font-weight: bold;
 }
 
 button {
@@ -148,14 +188,6 @@ input:focus {
 
 li {
   list-style: none;
-}
-
-nav a:hover {
-  text-decoration: none;
-}
-
-nav  li {
-  cursor: pointer;
 }
 
 textarea {
@@ -230,66 +262,77 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
+/* ProjectCard Styling: */
 .card {
-  width: 25%;
+  background-color: var(--platinum);
+  border-radius: 5px;
+  height: 400px;
+  margin: 2rem;
+  position: relative;
+  width: 400px;
+  box-shadow: 0 2px 2px var(--onyx), 0 6px 12px var(--onyx);
+}
+
+.card .img-container {
+  height: 75%;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--platinum);
+}
+
+.card .img-container img {
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 20px;
+  background-color: var(--platinum);
+}
+
+.card .content {
+  font-size: 18px;
+  background-color: var(--platinum);
+  color: var(--orange-soda);
+  font-weight: bold;
   text-align: center;
 }
 
-.img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
+#project-icon {
+  background-color: var(--platinum);
+  padding: 5px;
 }
 
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
+#topics {
+  font-size: small;
+  font-style: italic;
+  color: var(--onyx);
 }
 
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
+#card-title {
+  margin-top: 10px;
+  color: var(--onyx);
+  text-shadow: 1px 1px 6px var(--sandy-brown);
 }
 
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
+.wrapper {
+  padding-top: 50px;
+  justify-content: space-around;
+  height: 100%;
+  display: flex;
+  overflow: auto;
+  flex-flow: row wrap;
+  padding: 10px;
+  align-content: flex-start;
 }
 
-button {
-	background: var(--primary);
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;	
+/* Footer: */
+
+#footer {
+  color: var(--primary);
+  text-align: center;
+  margin-top: 150px;
 }
 
-a {
-	border-radius: 5px;
-	color: var(--primary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
+#footer-icons a {
+  padding: 25px;
 }
 
-.navActive {
-  color: var(--secondary);
-}

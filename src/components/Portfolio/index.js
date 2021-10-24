@@ -1,5 +1,5 @@
 import React from 'react'; 
-// import ProjectCards from '../../components/Project'
+import ProjectCards from '../../components/Project'
 import portfolio from './portfolio.json'
 
 function Wrapper(props) {

@@ -5,7 +5,7 @@
     "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/tech-blog.png",
     "github": "https://github.com/jessibewu/tech-blog",
     "deploy": "https://fierce-meadow-83766.herokuapp.com/",
-    "topics": "model-view-controller, bulma, bcrypt, express-js, mysql, sequelize, node-js, nodemon, dotenv, handlebars-js, jest"
+    "topics": "MVC: bootstrap, handlebars-js, bcrypt, express.js, mysql2, sequelize, node.js, nodemon, dotenv, jest"
     },
     {
     "id": 2,
@@ -13,7 +13,7 @@
     "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/budget-tracker.png",
     "github": "https://github.com/jessibewu/budget-tracker",
     "deploy": "https://lit-mesa-27218.herokuapp.com/",
-    "topics": "Javascript, pwa, indexedDB, mongoDB, mongoose, compression, morgan, nodemon, express"
+    "topics": "PWA: Javascript, indexedDB, mongoDB, mongoose, compression, morgan, express.js"
     },
     {
     "id": 3,
@@ -21,7 +21,7 @@
     "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/weather-dashboard.png",
     "github": "https://github.com/jessibewu/weather-dashboard",
     "deploy": "https://jessibewu.github.io/weather-dashboard/",
-    "topics": "Javascript, jQuery, html, bootstrap, moment, API"
+    "topics": "HTML, CSS, bootstrap, Javascript, Javascript, jQuery, moment, API"
     },
     {
     "id": 4,
@@ -29,7 +29,7 @@
     "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/workday-scheduler.png",
     "github": "https://github.com/jessibewu/work-day-scheduler",
     "deploy": "https://jessibewu.github.io/work-day-scheduler/",
-    "topics": "HTML, Javascript, Bootstrap, CSS, jQuery, moment"
+    "topics": "HTML, CSS, bootstrap, Javascript, jQuery, moment"
     },
     {
     "id": 5,
@@ -37,7 +37,7 @@
     "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/taskmaster.png",
     "github": "https://github.com/jessibewu/taskmaster-pro",
     "deploy": "https://jessibewu.github.io/taskmaster-pro/",
-    "topics": "HTML, Javascript, CSS"
+    "topics": "HTML, CSS, Javascript"
     },
     {
     "id": 6,
@@ -45,6 +45,6 @@
     "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/taskinator.png",
     "github": "https://github.com/jessibewu/taskinator",
     "deploy": "https://jessibewu.github.io/taskinator/",
-    "topics": "HTML, Javascript, CSS"
+    "topics": "HTML, CSS, Javascript"
     }
 ]
