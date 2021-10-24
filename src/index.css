@@ -8,6 +8,7 @@ main {
   --primary: #8c54ff;
   --secondary: #64973a;
   --tertiary: #B12704;
+  --platinum: #302e33;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -117,10 +118,6 @@ a {
   display: inline-flex;
 }
 
-img {
-  max-width: 100%;
-}
-
 span[role="img"] {
   cursor: default;
 }
@@ -213,20 +210,18 @@ button[disabled] {
   opacity: .8;
 }
 
-/* Project Styling: */
+/* Portfolio: */
 .project h1,
 .resume {
   margin-top: 50px;
 }
 
 .card {
-  background-color: var(--platinum);
   border-radius: 5px;
   height: 400px;
   margin: 2rem;
   position: relative;
   width: 400px;
-  box-shadow: 0 2px 2px var(--onyx), 0 6px 12px var(--onyx);
 }
 
 .card, .img-container {
@@ -234,20 +229,16 @@ button[disabled] {
   overflow: hidden;
   text-align: center;
   border-radius: 10px;
-  background-color: var(--platinum);
 }
 
 .card, .img-container img {
   width: 100%;
   padding: 25px;
   margin-bottom: 20px;
-  background-color: var(--platinum);
 }
 
 .card, .content {
   font-size: 18px;
-  background-color: var(--platinum);
-  color: var(--orange-soda);
   font-weight: bold;
   text-align: center;
 }
@@ -261,27 +252,16 @@ button[disabled] {
   filter: invert(20%);
 }
 
-#topics {
-  font-size: small;
-  font-style: italic;
-  color: var(--onyx);
-}
-
 #card-title {
   margin-top: 10px;
   color: var(--onyx);
-  text-shadow: 1px 1px 6px var(--sandy-brown);
 }
 
 .wrapper {
   padding-top: 50px;
-  justify-content: space-around;
-  height: 100%;
-  display: flex;
-  overflow: auto;
-  flex-flow: row wrap;
   padding: 10px;
-  align-content: flex-start;
+  display: inline-flexbox;
+  flex-wrap: wrap;
 }
 
 /* Resume: */

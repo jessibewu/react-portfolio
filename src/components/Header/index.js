@@ -10,7 +10,7 @@ class Header extends Component {
     render() {
     return (
         <HashRouter>
-            <div className="row Header" id="header">
+            <div id="header">
                 <h2>
                 <a href="http://jessibewu.github.io/react-portfolio">
                     <span role="img">

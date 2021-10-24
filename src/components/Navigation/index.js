@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 function Navigation(props) {   
 
     return (
-    <div className="row navigation" id="navigation">
+    <div className="navigation" id="navigation">
       <h5>
         <NavLink to="/about">About </NavLink>
         <NavLink to="/portfolio">Portfolio </NavLink>
