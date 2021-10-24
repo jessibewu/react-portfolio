@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import { motion } from "framer-motion"
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -55,9 +56,9 @@ function ContactForm() {
           </div>
         )}
         </div>
-        <div className='btn'>
+        <motion.div className='btn' initial={{ x: -50 }} animate={{ x: 0 }}>
         <button data-testid="button" type="submit">Submit</button>
-        </div>
+        </motion.div>
       </form>
     </section>
   );

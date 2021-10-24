@@ -6,7 +6,7 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #64973a;
+  --secondary: #5b942d;
   --tertiary: #B12704;
   --platinum: #302e33;
   --light: #fafafa;
@@ -140,7 +140,7 @@ span[role="img"] {
 #navigation a {
   padding-left: 3em;
   font-weight: bold;
-  color: #7269ec;
+  color: var(--primary);
 }
 
 /* About: */
@@ -218,23 +218,20 @@ button[disabled] {
 
 .card {
   border-radius: 5px;
-  height: 400px;
-  margin: 2rem;
-  position: relative;
+  margin: 1rem;
   width: 400px;
 }
 
 .card, .img-container {
-  height: 75%;
-  overflow: hidden;
+  height: 55%;
   text-align: center;
   border-radius: 10px;
 }
 
 .card, .img-container img {
   width: 100%;
-  padding: 25px;
-  margin-bottom: 20px;
+  padding: 10px;
+  margin-bottom: 40px;
 }
 
 .card, .content {
@@ -252,16 +249,15 @@ button[disabled] {
   filter: invert(20%);
 }
 
-#card-title {
-  margin-top: 10px;
-  color: var(--onyx);
-}
-
 .wrapper {
   padding-top: 50px;
+  justify-content: space-around;
+  height: 100%;
+  display: flex;
+  overflow: auto;
+  flex-flow: row wrap;
   padding: 10px;
-  display: inline-flexbox;
-  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 /* Resume: */

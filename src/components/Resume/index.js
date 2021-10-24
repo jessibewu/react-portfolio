@@ -1,4 +1,5 @@
 import React from 'react'; 
+import { motion } from "framer-motion"
 
 function Resume() {
 
@@ -9,13 +10,10 @@ return(
         <div class="row justify-content-center" id="resume">
             <div class="resume-p">
                 <p>Full stack developer with experience of the MERN stack. Experienced in product management and software development. </p>
-                <p class="mt-5">
-                <a href="https://www.linkedin.com/in/jessica-ying-en-wu-830859b7/"><img src="https://img.icons8.com/ios-glyphs/50/ffffff/linkedin.png" alt="Jessica Wu LinkedIn"/></a>
-                </p>
-                <p>
-                Download my full <a href="/" class="link">resume</a>
+                <motion.p initial={{ x: -50 }} animate={{ x: 0 }}>
+                Download my <a href="/" class="link">resume</a>
                 <br></br>
-                </p>
+                </motion.p>
             </div>
         </div>
 
