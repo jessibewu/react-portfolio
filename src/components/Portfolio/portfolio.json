@@ -1,0 +1,50 @@
+[
+    {
+    "id": 1,
+    "name": "tech blog",
+    "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/tech-blog.png",
+    "github": "https://github.com/jessibewu/tech-blog",
+    "deploy": "https://fierce-meadow-83766.herokuapp.com/",
+    "topics": "model-view-controller, bulma, bcrypt, express-js, mysql, sequelize, node-js, nodemon, dotenv, handlebars-js, jest"
+    },
+    {
+    "id": 2,
+    "name": "budget tracker",
+    "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/budget-tracker.png",
+    "github": "https://github.com/jessibewu/budget-tracker",
+    "deploy": "https://lit-mesa-27218.herokuapp.com/",
+    "topics": "Javascript, pwa, indexedDB, mongoDB, mongoose, compression, morgan, nodemon, express"
+    },
+    {
+    "id": 3,
+    "name": "weather dashboard",
+    "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/weather-dashboard.png",
+    "github": "https://github.com/jessibewu/weather-dashboard",
+    "deploy": "https://jessibewu.github.io/weather-dashboard/",
+    "topics": "Javascript, jQuery, html, bootstrap, moment, API"
+    },
+    {
+    "id": 4,
+    "name": "work day scheduler",
+    "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/workday-scheduler.png",
+    "github": "https://github.com/jessibewu/work-day-scheduler",
+    "deploy": "https://jessibewu.github.io/work-day-scheduler/",
+    "topics": "HTML, Javascript, Bootstrap, CSS, jQuery, moment"
+    },
+    {
+    "id": 5,
+    "name": "taskmaster",
+    "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/taskmaster.png",
+    "github": "https://github.com/jessibewu/taskmaster-pro",
+    "deploy": "https://jessibewu.github.io/taskmaster-pro/",
+    "topics": "HTML, Javascript, CSS"
+    },
+    {
+    "id": 6,
+    "name": "taskinator",
+    "image": "https://github.com/jessibewu/react-portfolio/raw/master/src/assets/images/taskinator.png",
+    "github": "https://github.com/jessibewu/taskinator",
+    "deploy": "https://jessibewu.github.io/taskinator/",
+    "topics": "HTML, Javascript, CSS"
+    }
+]

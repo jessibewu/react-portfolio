@@ -21,7 +21,8 @@ return(
         </div>
 
         <div class="justify-content-center mt-5">
-            <div id="front-back">
+            <div id="skills">
+                <h2>Frontend/Backend Skills:</h2>
                 <img src="https://img.icons8.com/material-outlined/54/ffffff/html.png" alt="html logo"/>
                 <img src="https://img.icons8.com/material-outlined/48/ffffff/css-filetype.png" alt="css logo"/>
                 <img src="https://img.icons8.com/ios-filled/45/ffffff/javascript-logo.png" alt="js logo"/>

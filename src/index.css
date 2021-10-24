@@ -88,7 +88,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  color: rgb(221, 103, 215);
 }
 
 header {
