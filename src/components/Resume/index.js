@@ -11,7 +11,7 @@ return(
             <div class="resume-p">
                 <p>Full stack developer with experience of the MERN stack. Experienced in product management and software development. </p>
                 <motion.p initial={{ x: -50 }} animate={{ x: 0 }}>
-                Download my <a href="/" class="link">resume</a>
+                Download my <a href="https://github.com/jessibewu/react-portfolio/raw/main/src/assets/Jessica%20Wu_software.pdf" class="link">resume</a>
                 <br></br>
                 </motion.p>
             </div>
