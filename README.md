@@ -61,7 +61,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
   Below is a screenshot of the [deployed application](http://jessibewu.github.io/react-portfolio): 
 
-  ![Screenshot](./src/assets/images/screenshot.png) 
+  ![Screenshot](https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/screenshot.PNG?raw=true) 
 
   ## License
   This application is covered by [MIT](https://opensource.org/licenses/MIT) license. 
