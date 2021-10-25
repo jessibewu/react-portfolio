@@ -7,6 +7,7 @@ import Portfolio from '../../components/Portfolio';
 import Resume from '../../components/Resume';
 import { motion } from "framer-motion"
 
+// declare animation/motion variants:
 const svgVariants = {
     hidden: { rotate: -180 },
     visible: { 
@@ -19,8 +20,8 @@ class Header extends Component {
     return (
         <HashRouter>
             <motion.div id="header" drag
-        dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
-        dragElastic={0.7}>
+            dragConstraints={{ left: 0, top: 0, right: 0, bottom: 0 }}
+            dragElastic={0.7}>
                 <h2>
                 <a href="http://jessibewu.github.io/react-portfolio">
                     <span role="img">
@@ -34,7 +35,7 @@ class Header extends Component {
                 </h2>
                 
                 <Navigation/>
-            </motion.div>
+                </motion.div>
     
 
             <div className="content">
