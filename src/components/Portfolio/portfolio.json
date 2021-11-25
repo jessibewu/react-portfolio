@@ -1,7 +1,7 @@
 [
     {
     "id": 1,
-    "name": "Hire ME",
+    "name": "Hire Me",
     "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/hire-me.png?raw=true",
     "github": "https://github.com/csarmiento17/hire-me",
     "deploy": "https://enigmatic-headland-23847.herokuapp.com/"
