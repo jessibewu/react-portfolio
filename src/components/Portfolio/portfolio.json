@@ -1,41 +1,48 @@
 [
     {
     "id": 1,
+    "name": "Hire ME",
+    "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/hire-me.png?raw=true",
+    "github": "https://github.com/csarmiento17/hire-me",
+    "deploy": "https://enigmatic-headland-23847.herokuapp.com/"
+    },
+    {
+    "id": 2,
     "name": "Tech Blog",
     "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/tech-blog.png?raw=true",
     "github": "https://github.com/jessibewu/tech-blog",
     "deploy": "https://fierce-meadow-83766.herokuapp.com/"
     },
     {
-    "id": 2,
+    "id": 3,
     "name": "Budget Tracker",
     "image": "https://raw.githubusercontent.com/jessibewu/react-portfolio/main/src/assets/images/budget-tracker.png",
     "github": "https://github.com/jessibewu/budget-tracker",
     "deploy": "https://lit-mesa-27218.herokuapp.com/"
     },
     {
-    "id": 3,
+    "id": 4,
     "name": "Weather Dashboard",
     "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/weather-dashboard.png?raw=true",
     "github": "https://github.com/jessibewu/weather-dashboard",
     "deploy": "https://jessibewu.github.io/weather-dashboard/"
     },
     {
-    "id": 4,
+    "id": 5,
     "name": "Workday Scheduler",
     "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/workday-scheduler.png?raw=true",
     "github": "https://github.com/jessibewu/work-day-scheduler",
     "deploy": "https://jessibewu.github.io/work-day-scheduler/"
     },
     {
-    "id": 5,
+    "id": 6,
     "name": "Taskmaster",
     "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/taskmaster.png?raw=true",
     "github": "https://github.com/jessibewu/taskmaster-pro",
     "deploy": "https://jessibewu.github.io/taskmaster-pro/"
     },
     {
-    "id": 6,
+    "id": 7,
     "name": "Taskinator",
     "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/taskinator.png?raw=true",
     "github": "https://github.com/jessibewu/taskinator",
