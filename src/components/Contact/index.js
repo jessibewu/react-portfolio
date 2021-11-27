@@ -1,20 +1,28 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from "emailjs-com";
 import { validateEmail } from '../../utils/helpers';
 import { motion } from "framer-motion"
 
 function ContactForm() {
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+  const form = useRef();
+  const [result, setResult] = useState(false);
+
+  const [formState, setFormState] = useState({ 
+    name: '', 
+    email: '', 
+    message: '' 
+  });
 
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!errorMessage) {
-      setFormState({ [e.target.name]: e.target.value });
-      console.log('Form', formState);
-    }
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   if (!errorMessage) {
+  //     setFormState({ [e.target.name]: e.target.value });
+  //     console.log('Form', formState);
+  //   }
+  // };
 
   const handleChange = (e) => {
     if (e.target.name === 'email') {
@@ -33,10 +41,38 @@ function ContactForm() {
     }
   };
 
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_EMAIL_SERVICE_ID,
+        process.env.REACT_APP_EMAIL_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_EMAIL_USER_ID        
+      )
+      .then(
+        (result) => {
+          console.log(result);
+          setResult(result);
+        },
+        (error) => {
+          console.log(error);
+          setResult(error);
+
+        // if (!errorMessage) {
+        //   setFormState({ [e.target.name]: e.target.value });
+        //   console.log('Form', formState);
+        //   }
+        }
+      );
+    form.current.reset();
+  };
+
   return (
     <section class="justify-content-center" id="contact-section">
       <h1 data-testid="h1tag">Contact Me:</h1><hr></hr>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form id="contact-form" ref={form} onSubmit={sendEmail}>
         <div>
           <label htmlFor="name">Name:</label><br></br>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
