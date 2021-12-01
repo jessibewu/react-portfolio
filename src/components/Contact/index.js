@@ -42,7 +42,7 @@ function ContactForm() {
   };
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     emailjs
       .sendForm(

@@ -3,6 +3,9 @@
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
   ## Description
+
+  Building my profile using React and framer-motion, as well as utilizing email.js to receive messages sent through My Contact forms from the frontend.
+
   Acceptance Criteria:
 
   ```
@@ -41,7 +44,11 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
   - [Credits](#credits)
 
   ## Installation
-  `npm i` 
+  Run `npm i` 
+
+  File Structure Overview:
+
+  <img src="./src/assets/images/file-structure.png" width="250">
 
   ## Usage
 
