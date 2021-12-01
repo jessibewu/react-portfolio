@@ -95,11 +95,7 @@ function ContactForm() {
         <motion.div className='btn' initial={{ x: -50 }} animate={{ x: 0 }}>
         <button data-testid="button" type="submit">Submit</button>
         </motion.div>
-      </form>
-      <br></br>
-      <div>
-        jess.wu@outlook.com
-      </div>
+      </form>      
     </section>
   );
 }
