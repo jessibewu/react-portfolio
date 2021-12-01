@@ -40,6 +40,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Technologies Used](#technologies-used)
   - [License](#license)
   - [Credits](#credits)
 
@@ -70,6 +71,19 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
   ![Screenshot](https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/screenshot.PNG?raw=true) 
 
+  ## Technologies Used
+
+ - @testing-library/jest-dom
+ - @testing-library/react
+ - @testing-library/user-event
+ - emailjs-com
+ - framer-motion
+ - react
+ - react-dom
+ - react-router-dom
+ - react-scripts
+ - web-vitals
+ - webpack
   ## License
   This application is covered by [MIT](https://opensource.org/licenses/MIT) license. 
   

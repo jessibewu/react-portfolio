@@ -8,44 +8,16 @@
     },
     {
     "id": 2,
-    "name": "Tech Blog",
-    "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/tech-blog.png?raw=true",
-    "github": "https://github.com/jessibewu/tech-blog",
-    "deploy": "https://fierce-meadow-83766.herokuapp.com/"
+    "name": "Redux Store",
+    "image": "https://raw.githubusercontent.com/jessibewu/react-portfolio/main/src/assets/images/redux-store.png",
+    "github": "https://github.com/jessibewu/redux-store",
+    "deploy": "https://limitless-castle-02345.herokuapp.com/"
     },
     {
     "id": 3,
-    "name": "Budget Tracker",
-    "image": "https://raw.githubusercontent.com/jessibewu/react-portfolio/main/src/assets/images/budget-tracker.png",
-    "github": "https://github.com/jessibewu/budget-tracker",
-    "deploy": "https://lit-mesa-27218.herokuapp.com/"
-    },
-    {
-    "id": 4,
-    "name": "Weather Dashboard",
-    "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/weather-dashboard.png?raw=true",
-    "github": "https://github.com/jessibewu/weather-dashboard",
-    "deploy": "https://jessibewu.github.io/weather-dashboard/"
-    },
-    {
-    "id": 5,
-    "name": "Workday Scheduler",
-    "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/workday-scheduler.png?raw=true",
-    "github": "https://github.com/jessibewu/work-day-scheduler",
-    "deploy": "https://jessibewu.github.io/work-day-scheduler/"
-    },
-    {
-    "id": 6,
-    "name": "Taskmaster",
-    "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/taskmaster.png?raw=true",
-    "github": "https://github.com/jessibewu/taskmaster-pro",
-    "deploy": "https://jessibewu.github.io/taskmaster-pro/"
-    },
-    {
-    "id": 7,
-    "name": "Taskinator",
-    "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/taskinator.png?raw=true",
-    "github": "https://github.com/jessibewu/taskinator",
-    "deploy": "https://jessibewu.github.io/taskinator/"
+    "name": "City Paws",
+    "image": "https://github.com/jessibewu/react-portfolio/blob/main/src/assets/images/city-paws.png?raw=true",
+    "github": "https://github.com/jessibewu/city-paws",
+    "deploy": "https://frozen-escarpment-88030.herokuapp.com/home"
     }
 ]
